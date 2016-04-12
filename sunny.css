@@ -1,0 +1,64 @@
+body{
+  background-color:  #ffe754;
+  font-family: 'Lato', sans-serif;';
+}
+
+#banner{
+  position: absolute;
+  background-color: black;
+  color:  #ffe754;
+  padding: 0px 0px 20px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+h1{
+  display: block;
+  font-family: "Verdana";
+}
+
+#box{
+  margin: auto;
+  margin-top: 7em;
+  margin-bottom: 8em;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 0px 5px 10px;
+  background-color:  black;
+  color: white;
+  width: 510px;
+  font-size: 30px;
+}
+
+#how{
+  display: block;
+  margin-top: 30px;
+  color: white;
+  font-family: 'georgia';
+  float: right;
+}
+
+.sq-who{
+  text-align: right;
+  padding-right: 5%;
+  padding-top: 10px;
+}
+
+.sq-quote{
+  padding-left:5%;
+  padding-right:5%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#tweet{
+  position: relative;
+  left: 420px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <link rel="stylesheet" href="sunny.css"/>
+  <script type="text/javascript" src="sunny.js"
+</head>
+
+<body>
+  <div class="container">
+  <div id="banner">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-xs-12 col-md-5">Sunny Quote Generator</h1>
+        <h4 id="how" class="col-xs-12 col-md-5">Just click the quote for a new one, Jabroni</h4>
+        </div>
+    </div>
+  </div>
+
+  <div id="box" class=".col-xs-6 .col-md-4">
+    <div id="sq-quote-wrapper">Loading...</div>
+    <script src="https://sunnyquotes.net/api/sq-api.js" id="sq-js" type="text/javascript" charset="utf-8"></script>
+    <button id="tweet" class="btn btn-info"><i class="fa fa-twitter fa-2x"></i></button>
+  </div>
+
+
+ <footer>
+    If it doesn't work, blame this guy: <a href='http://www.sunnyquotes.net/api/'>Sunny Quote API</a>
+  </footer>
+  </div>
+</body>
